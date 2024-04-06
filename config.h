@@ -6,7 +6,7 @@
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
 static char *font =
-    "JetBrainsMono Nerd Font Mono:pixelsize=18:antialias=true:autohint=true";
+    "JetBrainsMono Nerd Font Mono:pixelsize=22:antialias=true:autohint=true";
 static int borderpx = 1;
 
 /*
@@ -117,7 +117,7 @@ unsigned int tabspaces = 8;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
-    "#1d2021", /* base00 */
+    "#494989", /* base00 */
     "#fb4934", /* base08 */
     "#b8bb26", /* base0B */
     "#fabd2f", /* base0A */
